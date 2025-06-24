@@ -7,6 +7,7 @@ from urllib.parse import urljoin
 
 import aiohttp
 from azure.search.documents.agent.aio import KnowledgeAgentRetrievalClient
+# Import models required for agentic retrieval from Azure Search
 from azure.search.documents.agent.models import (
     KnowledgeAgentAzureSearchDocReference,
     KnowledgeAgentIndexParams,
